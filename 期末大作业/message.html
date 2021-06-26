@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>query</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style4.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="headphoto"></div>
+        <ul>
+            <li> <a  href="index.html">主页 </a> </li>
+            <li><a href="perInt.html">个人介绍</a></li>
+            <li><a href="hobby.html">个人兴趣</a></li>
+            <li><a class="corsp" href="message.html">留言板</a></li>
+            
+        </ul>
+    </nav>
+    <section>
+        <header>
+            <div class="header">留言板</div>
+
+        </header>
+
+        <article>
+            <div class="numbers">
+                留言（2）
+            </div>
+            <table class="message">
+                <tr>
+                    <td class="lefts">
+                        <div class="headm">                                   
+                        </div>
+                       
+                    </td>
+                    <td >    
+                        <div class="rights">
+                            <div class="names">
+                                小明:
+                            </div>
+                            <div class="content">
+                                你好啊!
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="lefts">
+                        <div class="headw">                                   
+                        </div>
+                       
+                    </td>
+                    <td >    
+                        <div class="rights">
+                            <div class="names">
+                                小红:
+                            </div>
+                            <div class="content">
+                                你好啊!
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+               
+            </table>
+            <form action="" method="POST">
+                   <table class="tablestyle">
+                        <tr>
+                            <td>
+                             <lable for="name">昵称</lable>   
+                            </td>
+                            <td>
+                                <input type="text" name="name" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">邮箱</label>
+                            </td>
+                            <td>
+                                <input type="text" name="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="sex">性别</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="sex" value="man">男
+                                <input type="radio" name="sex" value="woman">女
+                            </td> 
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td >
+                                <textarea rows="10" cols="80">请在此留下您宝贵的留言！</textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            </td>
+                            <td >
+                                <input class="sub" type="submit" name="" value="提交">
+                            </td>
+                        </tr>
+                   </table>
+            </form>
+        </article>
+        <footer>
+            <button class="music" onClick="play()"></button>
+            <audio id="music" src="mp3/房东的猫 - 云烟成雨.mp3" loop autoplay></audio>
+             <p>Copyright © 2021 - 2999 .201921130077.</p>
+               <p>  zj 版权所有</p>
+        </footer>
+    </section>
+</body>
+</html>

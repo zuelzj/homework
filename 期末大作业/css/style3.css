@@ -1,0 +1,52 @@
+.hobby{
+    background: rgba(105, 74, 71, 0.5); ;
+    margin:20px;
+}
+
+.intro{
+    font-size: 14px;
+    color: white;
+    width: 85%;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: rgba(169, 251, 248);
+}
+.hobby1{
+    height: 130px;
+    width: auto;
+}
+.basketball{
+ height: 115px;
+ width: 115px;
+ float: left;
+ background: url(../img/1.jpg) no-repeat center 0;
+ margin-right: 17px;
+}
+.swimming{
+    height: 115px;
+    width: 115px;
+    float: left;
+    background: url(../img/4.jpg) no-repeat center 0;
+    margin-right: 17px;
+}
+.LOL{
+    height: 115px;
+    width: 115px;
+    float: left;
+    background: url(../img/LOL.png) no-repeat center 0;
+    margin-right: 17px;
+}
+.csgo{
+    height: 115px;
+    width: 115px;
+    float: left;
+    background: url(../img/csgo.jpg) no-repeat center 0;
+    margin-right: 17px;
+}
+.divide{
+   margin-bottom: 10px;
+    border: 2px white solid;
+    clear: left;
+}

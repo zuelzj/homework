@@ -1,0 +1,76 @@
+table{
+border-spacing: 30px 10px;
+background-color: rgba(105, 74, 71, 0.5); 
+}
+.tablestyle1{
+   margin-left: 25%;
+ height: 100%;
+   width:256px;
+   float: left;
+   border-spacing: 10px 10px;
+}
+
+.adjust{
+    height: 100px;
+}
+.main{
+    width: 100%;
+    height: 254.4px;
+}
+.photos{
+   float: left;
+    width:404px;
+    height: 254.4px;
+    background-color: rgba(105, 74, 71, 0.5); 
+  
+}
+.photo{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 180px;
+    height: 180px;
+    background: url(../img/2.jpg) no-repeat left 0;
+}
+article{
+    height: 100%;
+}
+.tablestyle1 td{
+    text-align: center;
+    line-height: 20px;
+    border-spacing: 0px;
+}
+.ss{font-size: 14px;
+    font-weight: bold;
+}
+.position{
+    float: left;
+    margin: 0px;
+    margin-left: 25%;
+    width: 330px;
+    padding: 0px;
+
+}
+.position2{
+
+    padding: 0px;
+ width: 330px;
+
+}
+.common{
+  padding-top: 10px;
+}
+.common2{
+    padding-top:5px ;
+}
+.space{
+    margin-left: 50px;
+}
+.space2{
+    margin-top: 20px;
+}
+.limit{
+    width: 270px;
+}
+.bottomspace{
+    padding-bottom: 187.4px;
+}
